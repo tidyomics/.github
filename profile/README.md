@@ -1,8 +1,11 @@
 ## Get Started
 
-The main idea is to allow biologists to use familiar *tidyverse*
-commands with rich biological datasets in the Bioconductor ecosystem
-and beyond. This means being able to do things like:
+The main idea is to allow biologists to use familiar 
+[tidyverse](https://dplyr.tidyverse.org/)
+commands with rich biological datasets in the 
+[Bioconductor](https://bioconductor.org)
+ecosystem and beyond. 
+This means being able to do things like:
 
 ```{r}
 single_cell_data |>
@@ -19,6 +22,12 @@ chip_seq_peaks |>
   group_by(promoter_overlap) |>
   summarize(ave_score = mean(score))
 ```
+
+While Bioconductor objects are not all natively in
+[tidy data](https://vita.had.co.nz/papers/tidy-data.pdf)
+formar, `tidyomics` packages provide interfaces that allow users to
+operate on them as if they were, in a way that the original
+Bioconductor objects and methods are preserved.
 
 To get more examples of what `tidyomics` means, and what packages are
 involved, here are some getting started material and tutorials:
