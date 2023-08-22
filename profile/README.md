@@ -47,9 +47,13 @@ We value community feedback and collaboration. Join the ongoing
 discussion and contribute to the evolution of the `tidyomics`
 ecosystem.
 
-[Join our Slack Channel - #tidiness_in_bioc](https://slack.bioconductor.org)
+* Join our Slack Channel, [#tidiness_in_bioc](https://slack.bioconductor.org)
+* For help you can reach out on the [Bioconductor support site](https://support.bioconductor.org)
 
 ## Looking to get involved? 
+
+The `tidyomics` organization is open to contributions; it is an effort
+of many developers in the Bioconductor community and beyond.
 
 * See our [tidyomics open challenges](https://github.com/orgs/tidyomics/projects/1)
   project to see what we are currently working on
