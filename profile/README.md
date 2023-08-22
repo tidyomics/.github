@@ -1,7 +1,27 @@
 ## Get Started
 
-To get an idea what `tidyomics` means, here are some getting started
-material and tutorials:
+The main idea is to allow biologists to use familiar *tidyverse*
+commands with rich biological datasets in the Bioconductor ecosystem
+and beyond. This means being able to do things like:
+
+```{r}
+single_cell_data |>
+  filter(Phase == "G1") |>
+  ggplot(aes(UMAP_1, UMAP_2, color=score)) + 
+  geom_point()
+```
+
+or
+
+```{r}
+chip_seq_peaks |>
+  filter(FDR < 0.01) |>
+  group_by(promoter_overlap) |>
+  summarize(ave_score = mean(score))
+```
+
+To get more examples of what `tidyomics` means, and what packages are
+involved, here are some getting started material and tutorials:
 
 * [Tidy transcriptomics manifesto](https://tidyomics.github.io/tidyomicsBlog/post/2021-07-07-tidy-transcriptomics-manifesto/)
 * [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
