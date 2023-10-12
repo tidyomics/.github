@@ -20,7 +20,7 @@ or
 chip_seq_peaks %>%
   filter(FDR < 0.01) %>%
   mutate(n_olap = count_overlaps(., promoters),
-         any_pro_olap = n_olap > 1) %>%
+         any_pro_olap = n_olap > 0) %>%
   group_by(any_pro_olap) %>%
   summarize(ave_score = mean(score))
 ```
