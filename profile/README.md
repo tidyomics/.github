@@ -17,29 +17,31 @@ single_cell_data |>
 or
 
 ```{r}
-chip_seq_peaks |>
-  filter(FDR < 0.01) |>
-  group_by(promoter_overlap) |>
+chip_seq_peaks %>%
+  filter(FDR < 0.01) %>%
+  mutate(n_olap = count_overlaps(., promoters),
+         any_pro_olap = n_olap > 1) %>%
+  group_by(any_pro_olap) %>%
   summarize(ave_score = mean(score))
 ```
 
 While Bioconductor objects are not all natively in
 [tidy data](https://vita.had.co.nz/papers/tidy-data.pdf)
-formar, `tidyomics` packages provide interfaces that allow users to
+format, `tidyomics` packages provide interfaces that allow users to
 operate on them as if they were, in a way that the original
 Bioconductor objects and methods are preserved.
 
-To get more examples of what `tidyomics` means, and what packages are
-involved, here are some getting started material and tutorials:
+## Tutorials
+
+* Working with genomic range data: [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
+* Working with single cell data: [Tidy single-cell analyses workshop](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
+* Working with bulk RNA-seq: [Comparison of tidybulk with Bioconductor packages](https://stemangiola.github.io/tidybulk/articles/comparison_with_base_R.html)
+* Working with Seurat objects: [Overview of the tidyseurat package](https://stemangiola.github.io/tidyseurat/articles/introduction.html)
+* ...more to come!
+
+For more description on the transcriptomics side of tidyomics, see:
 
 * [Tidy transcriptomics manifesto](https://tidyomics.github.io/tidyomicsBlog/post/2021-07-07-tidy-transcriptomics-manifesto/)
-* [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
-* ...
-
-You might also check out recent workshops:
-
-* [Tidy genomic and transcriptomic single-cell analyses at BioC2023](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
-* ...
 
 ## Join the Conversation
 
