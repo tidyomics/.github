@@ -37,6 +37,7 @@ Bioconductor objects and methods are preserved.
 * Working with single cell data: [Tidy single-cell analyses workshop](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
 * Working with bulk RNA-seq: [Comparison of tidybulk with Bioconductor packages](https://stemangiola.github.io/tidybulk/articles/comparison_with_base_R.html)
 * Working with Seurat objects: [Overview of the tidyseurat package](https://stemangiola.github.io/tidyseurat/articles/introduction.html)
+* Working with cytometry data: [Overview of the tidytof package](https://keyes-timothy.github.io/tidytof/articles/tidytof.html)
 * ...more to come!
 
 For more description on the transcriptomics side of tidyomics, see:
