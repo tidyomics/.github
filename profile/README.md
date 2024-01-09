@@ -41,7 +41,7 @@ chip_seq_peaks %>%
 
 Below find links to:
 
-* [Key Tidyomics Packages](#key-tidyomics-packages) and their documentation
+* [Key Tidyomics Packages](#key-tidyomics-packages)
 * [Tutorials](#tutorials)
 * [Getting Help](#getting-help)
 * [Get Involved](#get-involved)
