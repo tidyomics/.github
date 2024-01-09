@@ -1,11 +1,19 @@
 ## Get Started
 
-The main idea is to allow biologists to use familiar 
-[tidyverse](https://dplyr.tidyverse.org/)
-commands with rich biological datasets in the 
-[Bioconductor](https://bioconductor.org)
-ecosystem and beyond. 
-This means being able to do things like:
+**tidyomics** is an open project to develop and integrate software and
+documentation to enable a
+[tidy data](https://vita.had.co.nz/papers/tidy-data.pdf)
+analysis framework for omics data objects.
+tidyomics allows use of familiar 
+[tidyverse](https://dplyr.tidyverse.org/) verbs
+(`select`, `filter`, `mutate`, etc.) to manipulate
+rich data objects in the 
+[Bioconductor](https://bioconductor.org) ecosystem.
+Importantly, the data objects are not modified, but tidyomics provides
+a tidy *interface* to work on the native objects, leveraging existing
+Bioconductor classes and algorithms.
+
+**tidyomics** allows for code such as the following:
 
 ```{r}
 single_cell_data |>
@@ -13,6 +21,8 @@ single_cell_data |>
   ggplot(aes(UMAP_1, UMAP_2, color=score)) + 
   geom_point()
 ```
+
+(filter single cells in G1 phase and plot UMAP coordinates)
 
 or
 
@@ -25,11 +35,16 @@ chip_seq_peaks %>%
   summarize(ave_score = mean(score))
 ```
 
-While Bioconductor objects are not all natively in
-[tidy data](https://vita.had.co.nz/papers/tidy-data.pdf)
-format, `tidyomics` packages provide interfaces that allow users to
-operate on them as if they were, in a way that the original
-Bioconductor objects and methods are preserved.
+(compute average score by promoter overlap for significant peaks)
+
+Below find links to:
+
+* [Key Tidyomics Packages](#key-tidyomics-packages) and their documentation
+* [Tutorials](#tutorials)
+* [Join the Conversation](#join-the-conversation)
+* [Get Involved](#get-involved)
+
+## Key Tidyomics Packages
 
 ## Tutorials
 
@@ -47,18 +62,27 @@ For more description on the transcriptomics side of tidyomics, see:
 ## Join the Conversation
 
 We value community feedback and collaboration. Join the ongoing
-discussion and contribute to the evolution of the `tidyomics`
+discussion and contribute to the evolution of the tidyomics
 ecosystem.
 
-* Join our Slack Channel, [#tidiness_in_bioc](https://slack.bioconductor.org)
-* For help you can reach out on the [Bioconductor support site](https://support.bioconductor.org)
+* Join our Slack Channel,
+  [#tidiness_in_bioc](https://slack.bioconductor.org) 
+  for general discussion or pointers
+* For specific coding help you can reach out on the 
+  [Bioconductor support site](https://support.bioconductor.org) 
 
-## Looking to get involved? 
+## Get Involved
 
-The `tidyomics` organization is open to contributions; it is an effort
-of many developers in the Bioconductor community and beyond.
+The tidyomics organization is open to new members and contributions;
+it is an effort of 
+[many developers](https://github.com/orgs/tidyomics/people) 
+in the Bioconductor community and beyond.
 
 * See our [tidyomics open challenges](https://github.com/orgs/tidyomics/projects/1)
   project to see what we are currently working on
-* [Guidelines for contributing](contributing.md)
-* [Code of Conduct](CODE_OF_CONDUCT.md)
+* Issues tagged with 
+  [good first issue](https://github.com/orgs/tidyomics/projects/1/views/1?filterQuery=good+first+issue)
+  are those that developers think would be good for a new developer to
+  start working on
+* Read over our [Guidelines for contributing](contributing.md)
+* Read over our [Code of Conduct](CODE_OF_CONDUCT.md)
