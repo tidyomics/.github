@@ -65,6 +65,7 @@ you can find by navigating the package main page.
 
 ## Tutorials
 
+* An example of RNA-seq and ATAC-seq integration with plyranges: [Fluent genomics workflow](https://sa-lee.github.io/fluentGenomics/articles/fluentGenomics.html)
 * Various genomic range manipulation tasks: [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
 * Single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
 * ...more to come!
