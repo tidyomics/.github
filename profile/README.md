@@ -37,6 +37,8 @@ chip_seq_peaks %>%
 
 (compute average score by promoter overlap for significant peaks)
 
+---
+
 Below find links to:
 
 * [Key Tidyomics Packages](#key-tidyomics-packages) and their documentation
@@ -45,6 +47,23 @@ Below find links to:
 * [Get Involved](#get-involved)
 
 ## Key Tidyomics Packages
+
+* tidybulk
+    - test
+* tidySummarizedExperiment
+    - test
+* tidySingleCellExperiment
+    - test
+* tidySeurat
+    - test
+* tidySpatialExperiment
+    - test
+* tidytof
+    - test
+* plyranges
+    - test
+* nullranges
+    - test
 
 ## Tutorials
 
