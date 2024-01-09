@@ -43,6 +43,7 @@ Below find links to:
 
 * [Key Tidyomics Packages](#key-tidyomics-packages)
 * [Tutorials](#tutorials)
+* [Talks](#talks)
 * [Getting Help](#getting-help)
 * [Get Involved](#get-involved)
 
@@ -69,6 +70,13 @@ you can find by navigating the package main page.
 * Various genomic range manipulation tasks: [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
 * Single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
 * ...more to come!
+
+## Talks
+
+Links to presentations that relate to tidyomics:
+
+* [Tidy enrichment analysis with plyranges and nullranges](https://github.com/tidyomics/tidy-genomics-talk/blob/main/tidy-enrichment.pdf
+* [Tidy analysis of genomic data](https://github.com/tidyomics/tidy-genomics-talk/blob/main/tidy-genomics-talk.pdf)
 
 ## Getting Help
 
