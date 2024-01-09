@@ -48,22 +48,33 @@ Below find links to:
 
 ## Key Tidyomics Packages
 
-* tidybulk
-    - test
-* tidySummarizedExperiment
-    - test
-* tidySingleCellExperiment
-    - test
-* tidySeurat
-    - test
-* tidySpatialExperiment
-    - test
-* tidytof
-    - test
-* plyranges
-    - test
-* nullranges
-    - test
+* [tidybulk](https://stemangiola.github.io/tidybulk/) - bulk RNA-seq tasks
+    - [vignette](https://stemangiola.github.io/tidybulk/articles/introduction.html)
+	- [GitHub](https://github.com/stemangiola/tidybulk/)
+* [tidySummarizedExperiment]()
+    - [vignette]()
+	- [GitHub]()
+* [tidySingleCellExperiment]()
+    - [vignette]()
+	- [GitHub]()
+* [tidySeurat]()
+    - [vignette]()
+	- [GitHub]()
+* [tidySpatialExperiment]()
+    - [vignette]()
+	- [GitHub]()
+* [tidytof]()
+    - [vignette]()
+	- [GitHub]()
+* [plyranges](https://sa-lee.github.io/plyranges/) - genomic ranges
+    - [vignette](https://sa-lee.github.io/plyranges/articles/an-introduction.html)
+	- [GitHub](https://github.com/sa-lee/plyranges)
+* [plyinteractions](https://tidyomics.github.io/plyinteractions/) - genomic interactions
+    - [vignette](https://tidyomics.github.io/plyinteractions/articles/plyinteractions.html)
+	- [GitHub](https://github.com/tidyomics/plyinteractions)
+* [nullranges](https://nullranges.github.io/nullranges/) - generation of null genomic range sets
+    - [vignette](https://nullranges.github.io/nullranges/articles/nullranges.html)
+	- [GitHub](https://github.com/nullranges/nullranges/)
 
 ## Tutorials
 
