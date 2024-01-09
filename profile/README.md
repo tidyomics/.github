@@ -43,12 +43,12 @@ Below find links to:
 
 * [Key Tidyomics Packages](#key-tidyomics-packages) and their documentation
 * [Tutorials](#tutorials)
-* [Join the Conversation](#join-the-conversation)
+* [Getting Help](#getting-help)
 * [Get Involved](#get-involved)
 
 ## Key Tidyomics Packages
 
-| packages | vignette | GitHub | description |
+| packages | intro | GitHub | description |
 |---|---|---|---|
 | [tidybulk](https://stemangiola.github.io/tidybulk/) | [vignette](https://stemangiola.github.io/tidybulk/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidybulk/) | bulk RNA-seq tasks |
 | [tidySummarizedExperiment]() | [vignette]() | [GitHub]() | |
@@ -60,24 +60,20 @@ Below find links to:
 | [plyinteractions](https://tidyomics.github.io/plyinteractions/) | [vignette](https://tidyomics.github.io/plyinteractions/articles/plyinteractions.html) | [GitHub](https://github.com/tidyomics/plyinteractions) | manipulation of genomic interactions |
 | [nullranges](https://nullranges.github.io/nullranges/) | [vignette](https://nullranges.github.io/nullranges/articles/nullranges.html) | [GitHub](https://github.com/nullranges/nullranges/) | generation of null genomic range sets | 
 
+Note that many of these packages have more than one vignette, which
+you can find by navigating the package main page.
+
 ## Tutorials
 
-* Working with genomic range data: [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
-* Working with single cell data: [Tidy single-cell analyses workshop](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
-* Working with bulk RNA-seq: [Comparison of tidybulk with Bioconductor packages](https://stemangiola.github.io/tidybulk/articles/comparison_with_base_R.html)
-* Working with Seurat objects: [Overview of the tidyseurat package](https://stemangiola.github.io/tidyseurat/articles/introduction.html)
-* Working with cytometry data: [Overview of the tidytof package](https://keyes-timothy.github.io/tidytof/articles/tidytof.html)
+* Various genomic range manipulation tasks: [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
+* Single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
 * ...more to come!
 
-For more description on the transcriptomics side of tidyomics, see:
+## Getting Help
 
-* [Tidy transcriptomics manifesto](https://tidyomics.github.io/tidyomicsBlog/post/2021-07-07-tidy-transcriptomics-manifesto/)
-
-## Join the Conversation
-
-We value community feedback and collaboration. Join the ongoing
-discussion and contribute to the evolution of the tidyomics
-ecosystem.
+We value community feedback and collaboration, and are happy to help
+you get started. Join the ongoing discussion, or you can ask specific
+questions about code on the support site.
 
 * Join our Slack Channel,
   [#tidiness_in_bioc](https://slack.bioconductor.org) 
