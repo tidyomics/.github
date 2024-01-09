@@ -48,9 +48,9 @@ Below find links to:
 
 ## Key Tidyomics Packages
 
-* [tidybulk](https://stemangiola.github.io/tidybulk/) - bulk RNA-seq tasks
-    - [vignette](https://stemangiola.github.io/tidybulk/articles/introduction.html)
-	- [GitHub](https://github.com/stemangiola/tidybulk/)
+* [tidybulk](https://stemangiola.github.io/tidybulk/) - bulk RNA-seq tasks -
+  [vignette](https://stemangiola.github.io/tidybulk/articles/introduction.html),
+  [GitHub](https://github.com/stemangiola/tidybulk/)
 * [tidySummarizedExperiment]()
     - [vignette]()
 	- [GitHub]()
