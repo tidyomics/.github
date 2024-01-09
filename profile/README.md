@@ -48,33 +48,33 @@ Below find links to:
 
 ## Key Tidyomics Packages
 
-* [tidybulk](https://stemangiola.github.io/tidybulk/) - bulk RNA-seq tasks -
+* [tidybulk](https://stemangiola.github.io/tidybulk/),
   [vignette](https://stemangiola.github.io/tidybulk/articles/introduction.html),
-  [GitHub](https://github.com/stemangiola/tidybulk/)
+  [GitHub](https://github.com/stemangiola/tidybulk/) - bulk RNA-seq tasks
 * [tidySummarizedExperiment]()
-    - [vignette]()
-	- [GitHub]()
+  [vignette]()
+  [GitHub]()
 * [tidySingleCellExperiment]()
-    - [vignette]()
-	- [GitHub]()
+  [vignette]()
+  [GitHub]()
 * [tidySeurat]()
-    - [vignette]()
-	- [GitHub]()
+  [vignette]()
+  [GitHub]()
 * [tidySpatialExperiment]()
-    - [vignette]()
-	- [GitHub]()
+  [vignette]()
+  [GitHub]()
 * [tidytof]()
-    - [vignette]()
-	- [GitHub]()
-* [plyranges](https://sa-lee.github.io/plyranges/) - genomic ranges
-    - [vignette](https://sa-lee.github.io/plyranges/articles/an-introduction.html)
-	- [GitHub](https://github.com/sa-lee/plyranges)
-* [plyinteractions](https://tidyomics.github.io/plyinteractions/) - genomic interactions
-    - [vignette](https://tidyomics.github.io/plyinteractions/articles/plyinteractions.html)
-	- [GitHub](https://github.com/tidyomics/plyinteractions)
-* [nullranges](https://nullranges.github.io/nullranges/) - generation of null genomic range sets
-    - [vignette](https://nullranges.github.io/nullranges/articles/nullranges.html)
-	- [GitHub](https://github.com/nullranges/nullranges/)
+  [vignette]()
+  [GitHub]()
+* [plyranges](https://sa-lee.github.io/plyranges/),
+  [vignette](https://sa-lee.github.io/plyranges/articles/an-introduction.html),
+  [GitHub](https://github.com/sa-lee/plyranges) - manipulation of genomics ranges
+* [plyinteractions](https://tidyomics.github.io/plyinteractions/),
+  [vignette](https://tidyomics.github.io/plyinteractions/articles/plyinteractions.html),
+  [GitHub](https://github.com/tidyomics/plyinteractions) - manipulation of genomic interactions
+* [nullranges](https://nullranges.github.io/nullranges/),
+  [vignette](https://nullranges.github.io/nullranges/articles/nullranges.html),
+  [GitHub](https://github.com/nullranges/nullranges/) - generation of null genomic range sets
 
 ## Tutorials
 
