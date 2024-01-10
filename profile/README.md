@@ -43,6 +43,7 @@ Below find links to:
 
 * [Key Tidyomics Packages](#key-tidyomics-packages)
 * [Tutorials](#tutorials)
+* [News](#news)
 * [Talks](#talks)
 * [Getting Help](#getting-help)
 * [Get Involved](#get-involved)
@@ -64,6 +65,27 @@ Below find links to:
 Note that many of these packages have more than one vignette, which
 you can find by navigating the package main page.
 
+...still working on this part...
+
+*   Working with genomic features:
+
+    * [plyranges](https://github.com/sa-lee/plyranges), for tidy manipulation of genomic range data. 
+    * [nullranges](https://github.com/nullranges/nullranges), for tidy generation of genomic ranges representing the null hypothesis.
+    * [plyinteractions](https://github.com/tidyomics/plyinteractions), for tidy manipulation of genomic interaction data.
+    
+    
+*  Working with transcriptomic features:
+
+    * [tidySummarizedExperiment](https://github.com/stemangiola/tidySummarizedExperiment), for tidy manipulation of SummarizedExperiment objects.
+    * [tidySingleCellExperiment](https://github.com/stemangiola/tidySingleCellExperiment), for tidy manipulation of SingleCellExperiment objects.
+    * [tidySpatialExperiment](https://github.com/william-hutchison/tidySpatialExperiment), for tidy manipulation of SpatialExperiment objects.
+    * [tidyseurat](https://github.com/stemangiola/tidyseurat), for tidy manipulation of Seurat objects.
+    * [tidybulk](https://github.com/stemangiola/tidybulk), for tidy bulk RNA-seq data analysis.
+
+*   Working with cytometry features:
+
+    * [tidytof](https://github.com/keyes-timothy/tidytof), for tidy manipulation of high-dimensional cytometry data.
+
 ## Tutorials
 
 * An example of RNA-seq and ATAC-seq integration with plyranges: [Fluent genomics workflow](https://sa-lee.github.io/fluentGenomics/articles/fluentGenomics.html)
@@ -71,9 +93,11 @@ you can find by navigating the package main page.
 * Single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
 * ...more to come!
 
-## Talks
+## News
 
-Links to presentations that relate to tidyomics:
+* [Tidyomics blog](https://tidyomics.github.io/tidyomicsBlog/)
+
+## Talks
 
 * [Tidy enrichment analysis with plyranges and nullranges](https://github.com/tidyomics/tidy-genomics-talk/blob/main/tidy-enrichment.pdf)
 * [Tidy analysis of genomic data](https://github.com/tidyomics/tidy-genomics-talk/blob/main/tidy-genomics-talk.pdf)
