@@ -52,9 +52,9 @@ Below find links to:
 | Package | Intro | GitHub | Description |
 |---|---|---|---|
 | [tidybulk](https://stemangiola.github.io/tidybulk/) | [Vignette](https://stemangiola.github.io/tidybulk/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidybulk/) | Tidy bulk RNA-seq data analysis |
-| [tidySummarizedExperiment]() | [Vignette]() | [GitHub](https://github.com/stemangiola/tidySummarizedExperiment) | Tidy manipulation of SummarizedExperiment objects |
-| [tidySingleCellExperiment]() | [Vignette]() | [GitHub](https://github.com/stemangiola/tidySingleCellExperiment) | Tidy manipulation of SingleCellExperiment objects |
-| [tidySeurat]() | [Vignette]() | [GitHub](https://github.com/stemangiola/tidyseurat) | Tidy manipulation of Seurat objects |
+| [tidySummarizedExperiment]() | [Vignette](https://stemangiola.github.io/tidySummarizedExperiment/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidySummarizedExperiment) | Tidy manipulation of SummarizedExperiment objects |
+| [tidySingleCellExperiment]() | [Vignette](https://stemangiola.github.io/tidySingleCellExperiment/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidySingleCellExperiment) | Tidy manipulation of SingleCellExperiment objects |
+| [tidySeurat]() | [Vignette](https://stemangiola.github.io/tidyseurat/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidyseurat) | Tidy manipulation of Seurat objects |
 | [tidySpatialExperiment]() | [Vignette]() | [GitHub](https://github.com/william-hutchison/tidySpatialExperiment) | Tidy manipulation of SpatialExperiment objects |
 | [tidytof]() | [Vignette]() | [GitHub](https://github.com/keyes-timothy/tidytof) | |
 | [plyranges](https://sa-lee.github.io/plyranges/) | [Vignette](https://sa-lee.github.io/plyranges/articles/an-introduction.html) | [GitHub](https://github.com/sa-lee/plyranges) | manipulation of genomics ranges |
