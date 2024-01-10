@@ -37,6 +37,14 @@ chip_seq_peaks %>%
 
 (compute average score by promoter overlap for significant peaks)
 
+## Installer
+
+Core tidyomics packages can be installed and loaded with the
+*tidyomics* package. See the following URL for details and
+instructions:
+
+https://github.com/tidyomics/tidyomics
+
 ---
 
 Below find links to:
@@ -53,38 +61,17 @@ Below find links to:
 | Package | Intro | GitHub | Description |
 |---|---|---|---|
 | [tidybulk](https://stemangiola.github.io/tidybulk/) | [Vignette](https://stemangiola.github.io/tidybulk/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidybulk/) | Tidy bulk RNA-seq data analysis |
-| [tidySummarizedExperiment]() | [Vignette](https://stemangiola.github.io/tidySummarizedExperiment/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidySummarizedExperiment) | Tidy manipulation of SummarizedExperiment objects |
-| [tidySingleCellExperiment]() | [Vignette](https://stemangiola.github.io/tidySingleCellExperiment/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidySingleCellExperiment) | Tidy manipulation of SingleCellExperiment objects |
-| [tidySeurat]() | [Vignette](https://stemangiola.github.io/tidyseurat/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidyseurat) | Tidy manipulation of Seurat objects |
-| [tidySpatialExperiment]() | [Vignette]() | [GitHub](https://github.com/william-hutchison/tidySpatialExperiment) | Tidy manipulation of SpatialExperiment objects |
-| [tidytof]() | [Vignette]() | [GitHub](https://github.com/keyes-timothy/tidytof) | |
-| [plyranges](https://sa-lee.github.io/plyranges/) | [Vignette](https://sa-lee.github.io/plyranges/articles/an-introduction.html) | [GitHub](https://github.com/sa-lee/plyranges) | manipulation of genomics ranges |
-| [plyinteractions](https://tidyomics.github.io/plyinteractions/) | [Vignette](https://tidyomics.github.io/plyinteractions/articles/plyinteractions.html) | [GitHub](https://github.com/tidyomics/plyinteractions) | manipulation of genomic interactions |
-| [nullranges](https://nullranges.github.io/nullranges/) | [Vignette](https://nullranges.github.io/nullranges/articles/nullranges.html) | [GitHub](https://github.com/nullranges/nullranges/) | generation of null genomic range sets | 
+| [tidySummarizedExperiment](https://stemangiola.github.io/tidySummarizedExperiment/) | [Vignette](https://stemangiola.github.io/tidySummarizedExperiment/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidySummarizedExperiment) | Tidy manipulation of SummarizedExperiment objects |
+| [tidySingleCellExperiment](https://stemangiola.github.io/tidySingleCellExperiment) | [Vignette](https://stemangiola.github.io/tidySingleCellExperiment/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidySingleCellExperiment) | Tidy manipulation of SingleCellExperiment objects |
+| [tidySeurat](https://stemangiola.github.io/tidyseurat/) | [Vignette](https://stemangiola.github.io/tidyseurat/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidyseurat) | Tidy manipulation of Seurat objects |
+| [tidySpatialExperiment](https://william-hutchinson.github.io/tidySpatialExperiment) | [Vignette]() | [GitHub](https://github.com/william-hutchison/tidySpatialExperiment) | Tidy manipulation of SpatialExperiment objects |
+| [tidytof](https://keyes-timothy.github.io/tidytof) | [Vignette]() | [GitHub](https://github.com/keyes-timothy/tidytof) | Tidy manipulation of high-dimensional cytometry data |
+| [plyranges](https://sa-lee.github.io/plyranges/) | [Vignette](https://sa-lee.github.io/plyranges/articles/an-introduction.html) | [GitHub](https://github.com/sa-lee/plyranges) | Tidy manipulation of genomics ranges |
+| [plyinteractions](https://tidyomics.github.io/plyinteractions/) | [Vignette](https://tidyomics.github.io/plyinteractions/articles/plyinteractions.html) | [GitHub](https://github.com/tidyomics/plyinteractions) | Tidy manipulation of genomic interactions |
+| [nullranges](https://nullranges.github.io/nullranges/) | [Vignette](https://nullranges.github.io/nullranges/articles/nullranges.html) | [GitHub](https://github.com/nullranges/nullranges/) | Generation of null genomic range sets | 
 
 Note that many of these packages have more than one vignette, which
 you can find by navigating the package main page.
-
-...still working on this part...
-
-*   Working with genomic features:
-
-    * [plyranges](https://github.com/sa-lee/plyranges), for tidy manipulation of genomic range data. 
-    * [nullranges](https://github.com/nullranges/nullranges), for tidy generation of genomic ranges representing the null hypothesis.
-    * [plyinteractions](https://github.com/tidyomics/plyinteractions), for tidy manipulation of genomic interaction data.
-    
-    
-*  Working with transcriptomic features:
-
-    * [tidySummarizedExperiment](https://github.com/stemangiola/tidySummarizedExperiment), for tidy manipulation of SummarizedExperiment objects.
-    * [tidySingleCellExperiment](https://github.com/stemangiola/tidySingleCellExperiment), for tidy manipulation of SingleCellExperiment objects.
-    * [tidySpatialExperiment](https://github.com/william-hutchison/tidySpatialExperiment), for tidy manipulation of SpatialExperiment objects.
-    * [tidyseurat](https://github.com/stemangiola/tidyseurat), for tidy manipulation of Seurat objects.
-    * [tidybulk](https://github.com/stemangiola/tidybulk), for tidy bulk RNA-seq data analysis.
-
-*   Working with cytometry features:
-
-    * [tidytof](https://github.com/keyes-timothy/tidytof), for tidy manipulation of high-dimensional cytometry data.
 
 ## Tutorials
 
