@@ -39,7 +39,10 @@ chip_seq_peaks %>%
 
 ## Comparison to base R
 
-As the tidyomics packages offer an interface to underlying R/Bioconductor function evaluations, operations carried out in tidyomics can also be performed with base R/Bioconductor. The benefit is often in readability and interpretability, through elimination of temporary variables, square bracket indexing (`[...,...]`) and control code (e.g. `for`, `if`/`else`, `apply`/`sapply`, etc.)
+As the tidyomics packages offer an interface to underlying
+R/Bioconductor function evaluations, operations carried out in
+tidyomics can also be performed with base R/Bioconductor. The benefit
+is often in readability, interpretability, and extensability, through elimination of temporary variables, square bracket indexing (`[...,...]`) and control code (e.g. `for`, `if`/`else`, `apply`/`sapply`, etc.).
 
 For example, a filtering and grouping operation in tidyomics would look like:
 
