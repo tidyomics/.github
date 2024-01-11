@@ -37,6 +37,31 @@ chip_seq_peaks %>%
 
 (compute average score by promoter overlap for significant peaks)
 
+## Comparison to base R
+
+As the tidyomics packages offer an interface to underlying R/Bioconductor function evaluations, operations carried out in tidyomics can also be performed with base R/Bioconductor. The benefit is often in readability and interpretability, through elimination of temporary variables, square bracket indexing (`[...,...]`) and control code (e.g. `for`, `if`/`else`, `apply`/`sapply`, etc.)
+
+For example, a filtering and grouping operation in tidyomics would look like:
+
+```{r}
+data %>%
+  filter(score > 10) %>%
+  group_by(gene_class) %>%
+  summarize(mean_count = mean(counts))
+```
+
+In comparison, we can obtain the same with base R/Bioconductor, but with more variables and some control code:
+
+```{r}
+subdata <- data[rowData(data)$score > 10,]
+gene_classes <- levels(rowData(subdata)$gene_class)
+mean_count <- numeric(length(gene_classes))
+for (i in seq_along(gene_classes)) {
+  tmp_idx <- rowData(subdata)$gene_class == gene_classes[i]
+  mean_count[i] <- mean(assay(subdata, "counts")[tmp_idx,])
+}
+```
+
 ## Installer
 
 Core tidyomics packages can be installed and loaded with the
