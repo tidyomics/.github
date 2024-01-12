@@ -92,11 +92,13 @@ Below find links to:
 | [tidySummarizedExperiment](https://stemangiola.github.io/tidySummarizedExperiment/) | [Vignette](https://stemangiola.github.io/tidySummarizedExperiment/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidySummarizedExperiment) | Tidy manipulation of SummarizedExperiment objects |
 | [tidySingleCellExperiment](https://stemangiola.github.io/tidySingleCellExperiment) | [Vignette](https://stemangiola.github.io/tidySingleCellExperiment/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidySingleCellExperiment) | Tidy manipulation of SingleCellExperiment objects |
 | [tidySeurat](https://stemangiola.github.io/tidyseurat/) | [Vignette](https://stemangiola.github.io/tidyseurat/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidyseurat) | Tidy manipulation of Seurat objects |
-| [tidySpatialExperiment](https://william-hutchinson.github.io/tidySpatialExperiment) | [Vignette]() | [GitHub](https://github.com/william-hutchison/tidySpatialExperiment) | Tidy manipulation of SpatialExperiment objects |
+| tidySpatialExperiment | | [GitHub](https://github.com/william-hutchison/tidySpatialExperiment) | Tidy manipulation of SpatialExperiment objects |
 | [tidytof](https://keyes-timothy.github.io/tidytof) | [Vignette]() | [GitHub](https://github.com/keyes-timothy/tidytof) | Tidy manipulation of high-dimensional cytometry data |
 | [plyranges](https://sa-lee.github.io/plyranges/) | [Vignette](https://sa-lee.github.io/plyranges/articles/an-introduction.html) | [GitHub](https://github.com/sa-lee/plyranges) | Tidy manipulation of genomics ranges |
 | [plyinteractions](https://tidyomics.github.io/plyinteractions/) | [Vignette](https://tidyomics.github.io/plyinteractions/articles/plyinteractions.html) | [GitHub](https://github.com/tidyomics/plyinteractions) | Tidy manipulation of genomic interactions |
 | [nullranges](https://nullranges.github.io/nullranges/) | [Vignette](https://nullranges.github.io/nullranges/articles/nullranges.html) | [GitHub](https://github.com/nullranges/nullranges/) | Generation of null genomic range sets | 
+
+Consult each package homepage for a description of recent changes.
 
 Note that many of these packages have more than one vignette, which
 you can find by navigating the package main page.
