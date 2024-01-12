@@ -1,24 +1,37 @@
 # Contributing to `tidyomics`
 
-## General steps to making contributions to the tidyomics ecosystem
+## General steps to making contributions to an existing package in the
+   tidyomics ecosystem
 
-1. Check the open challenges page, or ask one of the community members
-   about adding a new open challenge
-2. Reach out to a package developer, either through an Issue, or on
-   Bioconductor community Slack, `#tidiness_in_bioc` channel
+1. Check the [open challenges page](https://github.com/orgs/tidyomics/projects/1), 
+   or ask one of the community members about adding a new open
+   challenge
+2. Reach out to a package developer, either through a GitHub Issue, or
+   on the Bioconductor community Slack, `#tidiness_in_bioc` channel
 3. Discuss building a pull request, or developing a stand-alone
-   package
-   
-   ...add more details...
-   
-## Overview of what makes a tidyomics package
+   package, with current members of the 
+   [tidyomics development team](https://github.com/orgs/tidyomics/people)
 
-We are not re-implementing tidy or Bioconductor functionality, nor are
-we creating new classes to replace Bioconductor classes. All of the
-tidyomics packages leverage existing functions and classes, and simply
-provide an interface (an API) between tidy verbs and Bioconductor
-objects.
-  
+Alternatively, you may have an idea for a new package to cover an area
+not covered by existing packages. You can also reach out to discuss
+with any of the members on Slack or our GitHub project space.
+
+## Brief overview of what makes a tidyomics package
+
+The goal of the tidyomics packages is not to re-implement tidy or
+Bioconductor functionality, nor to create new classes to replace
+Bioconductor classes. All of the tidyomics packages leverage existing
+functions and classes, and simply provide an interface (an API)
+between tidy verbs and Bioconductor objects.
+
+An example is *tidySummarizedExperiment*, which does not re-implement
+or change the class of SummarizedExperiment objects, but instead
+provides a *tibble* abstraction of the object, which can be
+manipulated as if the SummarizedExperiment were in a tidy format. The
+underlying SummarizedExperiment maintains its class (unless there is a
+summarization operation for example) and can be operated on with
+existing Bioconductor methods as usual.
+
 ## Tidyomics in scripts vs in package development
 
 We are planning to develop more tutorials and instructional material
