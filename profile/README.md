@@ -90,9 +90,9 @@ For example, a filtering and grouping operation on a
 SummarizedExperiment `data` in tidyomics would look like:
 
 ```{r}
-data %>%
-  filter(score > 0) %>%
-  group_by(gene_class) %>%
+data |>
+  filter(score > 0) |>
+  group_by(gene_class) |>
   summarize(mean_count = mean(counts))
 ```
 
