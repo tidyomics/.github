@@ -37,34 +37,6 @@ chip_seq_peaks %>%
 
 (compute average score by promoter overlap for significant peaks)
 
-## Comparison to base R
-
-As the tidyomics packages offer an interface to underlying
-R/Bioconductor function evaluations, operations carried out in
-tidyomics can also be performed with base R/Bioconductor. The benefit
-is often in readability, interpretability, and extensability, through elimination of temporary variables, square bracket indexing (`[...,...]`) and control code (e.g. `for`, `if`/`else`, `apply`/`sapply`, etc.).
-
-For example, a filtering and grouping operation in tidyomics would look like:
-
-```{r}
-data %>%
-  filter(score > 10) %>%
-  group_by(gene_class) %>%
-  summarize(mean_count = mean(counts))
-```
-
-In comparison, we can obtain the same with base R/Bioconductor, but with more variables and some control code:
-
-```{r}
-subdata <- data[rowData(data)$score > 10,]
-gene_classes <- levels(rowData(subdata)$gene_class)
-mean_count <- numeric(length(gene_classes))
-for (i in seq_along(gene_classes)) {
-  tmp_idx <- rowData(subdata)$gene_class == gene_classes[i]
-  mean_count[i] <- mean(assay(subdata, "counts")[tmp_idx,])
-}
-```
-
 ## Installer
 
 Core tidyomics packages can be installed and loaded with the
@@ -78,6 +50,7 @@ https://github.com/tidyomics/tidyomics
 Below find links to:
 
 * [Key Tidyomics Packages](#key-tidyomics-packages)
+* [Comparison to base R](#comparison-to-base-r)
 * [Tutorials](#tutorials)
 * [News](#news)
 * [Talks](#talks)
@@ -102,6 +75,66 @@ Consult each package homepage for a description of recent changes.
 
 Note that many of these packages have more than one vignette, which
 you can find by navigating the package main page.
+
+## Comparison to base R
+
+As the tidyomics packages offer an interface to underlying
+R/Bioconductor function evaluations, operations carried out in
+tidyomics can also be performed with base R/Bioconductor. The benefit
+is often in readability, interpretability, and extensability, through
+elimination of temporary variables, square bracket indexing
+(`[...,...]`) and control code 
+(e.g. `for`, `if`/`else`, `apply`/`sapply`, etc.). 
+
+For example, a filtering and grouping operation on a
+SummarizedExperiment `data` in tidyomics would look like:
+
+```{r}
+data %>%
+  filter(score > 0) %>%
+  group_by(gene_class) %>%
+  summarize(mean_count = mean(counts))
+```
+
+In comparison, we can obtain the same with base R/Bioconductor, but
+with more variables and some control code: 
+
+```{r}
+subdata <- data[rowData(data)$score > 0,]
+gene_classes <- levels(rowData(subdata)$gene_class)
+mean_count <- numeric(length(gene_classes))
+for (i in seq_along(gene_classes)) {
+  tmp_idx <- rowData(subdata)$gene_class == gene_classes[i]
+  mean_count[i] <- mean(assay(subdata, "counts")[tmp_idx,])
+}
+```
+
+A base R alternative making use of `subset` and `aggregate`, h/t Martin Morgan:
+
+```{r}
+subdata <- subset(data, score > 0)
+aggregate(
+    as.vector(assay(subdata)),
+    list(rep(rowData(subdata)$gene_class, ncol(subdata))),
+    mean
+)
+```
+
+For exploring this comparison, try the following `data`:
+
+```{r}
+set.seed(5)
+data <- SummarizedExperiment(
+  assay=list(counts =
+    matrix(rnorm(100),10,10, 
+    dimnames=list(letters[1:10],letters[1:10]))
+  ), 
+  rowData = DataFrame(
+    score=rnorm(10), 
+    gene_class=factor(rep(1:3,c(3,3,4)))
+  )
+)
+```
 
 ## Tutorials
 
