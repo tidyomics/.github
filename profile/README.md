@@ -27,11 +27,10 @@ single_cell_data |>
 or
 
 ```{r}
-chip_seq_peaks %>%
-  filter(FDR < 0.01) %>%
-  mutate(n_olap = count_overlaps(., promoters),
-         any_pro_olap = n_olap > 0) %>%
-  group_by(any_pro_olap) %>%
+chip_seq_peaks |>
+  filter(FDR < 0.01) |>
+  join_overlap_inner(promoters) |>
+  group_by(gene_class) |>
   summarize(ave_score = mean(score))
 ```
 
@@ -109,18 +108,25 @@ for (i in seq_along(gene_classes)) {
 }
 ```
 
-A base R alternative making use of `subset` and `aggregate`, h/t Martin Morgan:
+This can be improved a bit if you know some more base R
+functions. Here is a base R alternative making use of `subset` and
+`aggregate`, h/t Martin Morgan:
 
 ```{r}
 subdata <- subset(data, score > 0)
 aggregate(
-    as.vector(assay(subdata)),
-    list(rep(rowData(subdata)$gene_class, ncol(subdata))),
-    mean
+  as.vector(assay(subdata)),
+  list(rep(rowData(subdata)$gene_class, ncol(subdata))),
+  mean
 )
 ```
 
-For exploring this comparison, try the following `data`:
+Even still, the tidyomics version above (`filter`, `group_by`,
+`summarize`) is likely the easiest to read and extend if the analyst
+wants to do additional operations, and is the easiest to directly pipe
+into a plot or a printed table.
+
+For exploring this example, you can define `data` as follows:
 
 ```{r}
 set.seed(5)
