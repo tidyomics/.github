@@ -7,8 +7,7 @@
    challenge
 2. Reach out to a package developer, either through a GitHub Issue, or
    on the Bioconductor community Slack, `#tidiness_in_bioc` channel
-3. Discuss building a pull request, or developing a stand-alone
-   package, with current members of the 
+3. Discuss building a pull request with current members of the 
    [tidyomics development team](https://github.com/orgs/tidyomics/people)
 
 Alternatively, you may have an idea for a new package to cover an area
@@ -17,10 +16,10 @@ with any of the members on Slack or our GitHub project space.
 
 ## Brief overview of what makes a tidyomics package
 
-The goal of the tidyomics packages is not to re-implement tidy or
+The goal of the tidyomics packages is not to re-implement tidyverse or
 Bioconductor functionality, nor to create new classes to replace
 Bioconductor classes. All of the tidyomics packages leverage existing
-functions and classes, and simply provide an interface (an API)
+functions and classes, and provide an _interface_ (an API)
 between tidy verbs and Bioconductor objects.
 
 An example is *tidySummarizedExperiment*, which does not re-implement
