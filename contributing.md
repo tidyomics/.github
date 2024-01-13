@@ -1,7 +1,6 @@
 # Contributing to `tidyomics`
 
-## General steps to making contributions to an existing package in the
-   tidyomics ecosystem
+## Making contributions to existing tidyomics packages
 
 1. Check the [open challenges page](https://github.com/orgs/tidyomics/projects/1), 
    or ask one of the community members about adding a new open
