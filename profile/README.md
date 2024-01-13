@@ -30,11 +30,11 @@ or
 chip_seq_peaks |>
   filter(FDR < 0.01) |>
   join_overlap_inner(promoters) |>
-  group_by(gene_class) |>
+  group_by(promoter_type) |>
   summarize(ave_score = mean(score))
 ```
 
-(compute average score by promoter overlap for significant peaks)
+(compute average score by the type of promoter overlap for significant peaks)
 
 ## Installer
 
