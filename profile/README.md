@@ -187,3 +187,9 @@ in the Bioconductor community and beyond.
   start working on
 * Read over our [Guidelines for contributing](contributing.md)
 * Read over our [Code of Conduct](CODE_OF_CONDUCT.md)
+* As with new users, for new developers please consider joining our
+  Slack Channel,
+  [#tidiness_in_bioc](https://slack.bioconductor.org).
+  Most of the tidyomics developers are active there and we are happy
+  to talk through updates, PRs, or give guidance on your development
+  of a new package in this space.
