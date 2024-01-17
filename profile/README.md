@@ -186,4 +186,6 @@ in the Bioconductor community and beyond.
 * Read over our [Guidelines for contributing](contributing.md)
 * Read over our [Code of Conduct](CODE_OF_CONDUCT.md)
 
+<center>
 <img src="tidyomics_community.png" alt="diagram of tidyomics community" width="400"/>
+</center>
