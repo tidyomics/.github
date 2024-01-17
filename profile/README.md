@@ -80,10 +80,10 @@ you can find by navigating the package main page.
 As the tidyomics packages offer an interface to underlying
 R/Bioconductor function evaluations, operations carried out in
 tidyomics can also be performed with base R/Bioconductor. The benefit
-is often in readability, interpretability, and extensability, through
-elimination of temporary variables, square bracket indexing
-(`[...,...]`) and control code 
-(e.g. `for`, `if`/`else`, `apply`/`sapply`, etc.). 
+from the tidyomics approach is often in readability, interpretability,
+and extensability of code, gained through elimination of temporary
+variables, square bracket indexing (`[...,...]`) and control code
+(e.g. `for`, `if`/`else`, `apply`/`sapply`, etc.).
 
 For example, a filtering and grouping operation on a
 SummarizedExperiment `data` in tidyomics would look like:
