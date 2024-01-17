@@ -172,6 +172,8 @@ questions about code on the support site.
 
 ## Get Involved
 
+<img src="tidyomics_community.png" alt="diagram of tidyomics community" align="right" width="350"/>
+
 The tidyomics organization is open to new members and contributions;
 it is an effort of 
 [many developers](https://github.com/orgs/tidyomics/people) 
@@ -185,7 +187,3 @@ in the Bioconductor community and beyond.
   start working on
 * Read over our [Guidelines for contributing](contributing.md)
 * Read over our [Code of Conduct](CODE_OF_CONDUCT.md)
-
-<p align="center">
-<img src="tidyomics_community.png" alt="diagram of tidyomics community" width="400"/>
-</p>
