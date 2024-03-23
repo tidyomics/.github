@@ -53,6 +53,7 @@ Below find links to:
 * [Tutorials](#tutorials)
 * [News](#news)
 * [Talks](#talks)
+* [Tidyomics paper](#tidyomics-paper)
 * [Getting Help](#getting-help)
 * [Get Involved](#get-involved)
 
@@ -144,10 +145,11 @@ data <- SummarizedExperiment(
 
 ## Tutorials
 
-* An example of RNA-seq and ATAC-seq integration with plyranges: [Fluent genomics workflow](https://sa-lee.github.io/fluentGenomics/articles/fluentGenomics.html)
-* Various genomic range manipulation tasks: [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
-* Single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
-* ...more to come!
+* Workshop covering single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
+* Online book covering tidy manipulation of GRanges and more: [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
+* Quick tutorial showing overlaps of GWAS SNPs with scATAC-seq peaks [T1D GWAS SNPs and CD4+ peaks](https://htmlpreview.github.io/?https://github.com/mikelove/cd4-overlaps/blob/main/CATlas/analysis.html)
+* A workflow showing RNA-seq and ATAC-seq integration with plyranges: [Fluent genomics workflow](https://sa-lee.github.io/fluentGenomics/articles/fluentGenomics.html)
+* More to come...
 
 ## News
 
@@ -157,6 +159,10 @@ data <- SummarizedExperiment(
 
 * [Tidy enrichment analysis with plyranges and nullranges](https://github.com/tidyomics/tidy-genomics-talk/blob/main/tidy-enrichment.pdf)
 * [Tidy analysis of genomic data](https://github.com/tidyomics/tidy-genomics-talk/blob/main/tidy-genomics-talk.pdf)
+
+## Tidyomics paper
+
+* [The tidyomics ecosystem: Enhancing omic data analyses](https://www.biorxiv.org/content/10.1101/2023.09.10.557072v2)
 
 ## Getting Help
 
