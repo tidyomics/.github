@@ -13,6 +13,9 @@ Importantly, the data objects are not modified, but tidyomics provides
 a tidy *interface* to work on the native objects, leveraging existing
 Bioconductor classes and algorithms.
 
+**tidyomics** is a set of R packages by an international group of
+developers.
+
 **tidyomics** allows for code such as the following:
 
 ```{r}
@@ -145,9 +148,10 @@ data <- SummarizedExperiment(
 
 ## Tutorials
 
-* Workshop covering single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
+* BioC workshop covering single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
 * Online book covering tidy manipulation of GRanges and more: [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
-* Quick tutorial showing overlaps of GWAS SNPs with scATAC-seq peaks [T1D GWAS SNPs and CD4+ peaks](https://htmlpreview.github.io/?https://github.com/mikelove/cd4-overlaps/blob/main/CATlas/analysis.html)
+* Quarto lecture notes introducing the concepts of tidyomics for expression and ranges: [Tidy intro talk](https://tidyomics.github.io/tidy-intro-talk)
+* Short tutorial showing overlaps of GWAS SNPs with scATAC-seq peaks [T1D GWAS SNPs and CD4+ peaks](https://htmlpreview.github.io/?https://github.com/mikelove/cd4-overlaps/blob/main/CATlas/analysis.html)
 * A workflow showing RNA-seq and ATAC-seq integration with plyranges: [Fluent genomics workflow](https://sa-lee.github.io/fluentGenomics/articles/fluentGenomics.html)
 * More to come...
 
