@@ -62,6 +62,10 @@ Below find links to:
 
 ## Key Tidyomics Packages
 
+Here we list the packages that provide a *tidy data interface* to
+manipulate *native Bioconductor objects*. The tidyomics project also
+involves other convenience packages listed below.
+
 | Package | Intro | GitHub | Description |
 |---|---|---|---|
 | [tidybulk](https://stemangiola.github.io/tidybulk/) | [Vignette](https://stemangiola.github.io/tidybulk/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidybulk/) | Tidy bulk RNA-seq data analysis |
@@ -72,12 +76,18 @@ Below find links to:
 | [tidytof](https://keyes-timothy.github.io/tidytof) | [Vignette]() | [GitHub](https://github.com/keyes-timothy/tidytof) | Tidy manipulation of high-dimensional cytometry data |
 | [plyranges](https://tidyomics.github.io/plyranges/) | [Vignette](https://tidyomics.github.io/plyranges/articles/an-introduction.html) | [GitHub](https://github.com/tidyomics/plyranges) | Tidy manipulation of genomics ranges |
 | [plyinteractions](https://tidyomics.github.io/plyinteractions/) | [Vignette](https://tidyomics.github.io/plyinteractions/articles/plyinteractions.html) | [GitHub](https://github.com/tidyomics/plyinteractions) | Tidy manipulation of genomic interactions |
-| [nullranges](https://nullranges.github.io/nullranges/) | [Vignette](https://nullranges.github.io/nullranges/articles/nullranges.html) | [GitHub](https://github.com/nullranges/nullranges/) | Generation of null genomic range sets | 
 
 Consult each package homepage for a description of recent changes.
 
 Note that many of these packages have more than one vignette, which
 you can find by navigating the package main page.
+
+**Convenience packages**
+
+| Package | Intro | GitHub | Description |
+|---|---|---|---|
+| [nullranges](https://nullranges.github.io/nullranges/) | [Vignette](https://nullranges.github.io/nullranges/articles/nullranges.html) | [GitHub](https://github.com/nullranges/nullranges/) | Generation of null genomic range sets | 
+| [easylift](https://nahid18.github.io/easylift/) | [Vignette](https://nahid18.github.io/easylift/articles/easylift.html) | [GitHub](https://github.com/nahid18/easylift/) | Perform genomic liftover |
 
 ## Comparison to base R
 
