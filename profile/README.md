@@ -156,6 +156,35 @@ data <- SummarizedExperiment(
 )
 ```
 
+## Comparison to Bioconductor
+
+A key innovation in Bioconductor is the use of object-oriented
+programming and specific data structures. For example in the 
+[Gentleman et al 2004](https://doi.org/10.1186/gb-2004-5-10-r80)
+
+> An `exprSet` is a data structure that binds together array-based
+> expression measurements with covariate and administrative data for a
+> collection of [experiments]... [its] design facilitates a three-tier
+> architecture for providing analysis tools ... low-level data are
+> bridged to high-level analysis manipulations...
+
+In Bioconductor, rich, structured data about experiments is maintained
+throughout analyses by passing data objects from one method to
+another. E.g. `estimateDispersions` adds dispersion information to the
+`rowData` slot of a `DESeqDataSet` which is a sub-class of a
+`SummarizedExperiment` therefore inheriting the structure and methods
+of that class. The structure of the data is preserved after running
+the function (like many Biodonctor methods, it is an *endomorphic*
+function).
+
+The goal of tidyomics is to preserve the object-oriented programming
+style and stucture of Bioconductor data objects, while allowing users
+to manipulate these data objects with expressive commands that they
+already know from tidyverse packages. Users should be able to easily
+combine simple, readable functions in a modular manner through piping
+operations to perform complex operations, including grouping and
+summarization.
+
 ## Tutorials
 
 * BioC workshop covering single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
