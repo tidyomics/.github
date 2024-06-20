@@ -159,7 +159,7 @@ data <- SummarizedExperiment(
 ## Comparison to Bioconductor
 
 A key innovation in Bioconductor is the use of object-oriented
-programming and specific data structures. For example in the 
+programming and specific data structures. As described in
 [Gentleman et al 2004](https://doi.org/10.1186/gb-2004-5-10-r80)
 
 > An `exprSet` is a data structure that binds together array-based
