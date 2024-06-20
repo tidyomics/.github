@@ -160,13 +160,14 @@ data <- SummarizedExperiment(
 
 A key innovation in Bioconductor is the use of object-oriented
 programming and specific data structures. As described in
-[Gentleman et al 2004](https://doi.org/10.1186/gb-2004-5-10-r80)
+[Gentleman et al 2004](https://doi.org/10.1186/gb-2004-5-10-r80),
 
 > An `exprSet` is a data structure that binds together array-based
 > expression measurements with covariate and administrative data for a
 > collection of [experiments]... [its] design facilitates a three-tier
-> architecture for providing analysis tools ... low-level data are
-> bridged to high-level analysis manipulations...
+> architecture for providing analysis tools for new microarray
+> platforms: low-level data are bridged to high-level analysis
+> manipulations via the `exprSet` structure.
 
 In Bioconductor, rich, structured data about experiments is maintained
 throughout analyses by passing data objects from one method to
