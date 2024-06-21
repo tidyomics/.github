@@ -53,6 +53,7 @@ Below find links to:
 
 * [Key Tidyomics Packages](#key-tidyomics-packages)
 * [Comparison to base R](#comparison-to-base-r)
+* [Comparison to Bioconductor](#comparison-to-bioconductor)
 * [Tutorials](#tutorials)
 * [News](#news)
 * [Talks](#talks)
