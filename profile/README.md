@@ -180,13 +180,14 @@ function).
 
 The goal of tidyomics is to preserve the object-oriented programming
 style and stucture of Bioconductor data objects, while allowing users
-to manipulate these data objects with expressive commands that they
-already know from tidyverse packages. Users should be able to easily
-combine simple, readable functions in a modular manner through piping
-operations to perform complex operations, including grouping and
-summarization. This should allow users to flexible explore and
-plot data, while operations are still being performed with the
-efficiency of the underlying base R/Bioconductor code. 
+to manipulate these data objects with expressive commands, familiar to
+tidyverse users.
+
+Tidyomics aims to allow users to flexibly explore and plot biological
+datasets, by combining simple functions with human-readable names in a
+modular fashion to perform complex operations, including grouping and
+summarization tasks. Operations should still be performed with
+comparable efficiency to the underlying base R/Bioconductor code.
 
 ## Tutorials
 
