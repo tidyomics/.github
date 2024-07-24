@@ -193,7 +193,7 @@ comparable efficiency to the underlying base R/Bioconductor code.
 ## Tutorials
 
 * BioC workshop covering single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
-* BioC workshop covering genomic ranges and interactions: [Applying tidy principles to investigating chromatin composition and architecture](https://jserizay.com/Bioc2024tidyworkshop/)
+* BioC workshop covering genomic ranges and interactions: [Investigating chromatin composition and architecture](https://jserizay.com/Bioc2024tidyworkshop/)
 * Online book covering tidy manipulation of GRanges and more: [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
 * Quarto lecture notes introducing the concepts of tidyomics for expression and ranges: [Tidy intro talk](https://tidyomics.github.io/tidy-intro-talk)
 * Short tutorial showing overlaps of GWAS SNPs with scATAC-seq peaks [T1D GWAS SNPs and CD4+ peaks](https://htmlpreview.github.io/?https://github.com/mikelove/cd4-overlaps/blob/main/CATlas/analysis.html)
