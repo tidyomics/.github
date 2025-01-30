@@ -76,6 +76,7 @@ involves other convenience packages listed below.
 | [tidytof](https://keyes-timothy.github.io/tidytof) | [Vignette]() | [GitHub](https://github.com/keyes-timothy/tidytof) | Tidy manipulation of high-dimensional cytometry data |
 | [plyranges](https://tidyomics.github.io/plyranges/) | [Vignette](https://tidyomics.github.io/plyranges/articles/an-introduction.html) | [GitHub](https://github.com/tidyomics/plyranges) | Tidy manipulation of genomics ranges |
 | [plyinteractions](https://tidyomics.github.io/plyinteractions/) | [Vignette](https://tidyomics.github.io/plyinteractions/articles/plyinteractions.html) | [GitHub](https://github.com/tidyomics/plyinteractions) | Tidy manipulation of genomic interactions |
+| [plyxp](https://jtlandis.github.io/plyxp/) | [Vignette](https://jtlandis.github.io/plyxp/articles/plyxp.html) | [GitHub](https://github.com/jtlandis/plyxp) | Data-masking-based interface to experiment data |
 
 Consult each package homepage for a description of recent changes.
 
