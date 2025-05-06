@@ -4,6 +4,9 @@
 documentation to enable a
 [tidy data](https://vita.had.co.nz/papers/tidy-data.pdf)
 analysis framework for omics data objects.
+The development of packages and tutorials is organized around
+[tidyomics open challenges](https://github.com/orgs/tidyomics/projects/1)
+described [below](#get-involved).
 tidyomics enables the use of familiar 
 [tidyverse](https://dplyr.tidyverse.org/) verbs
 (`select`, `filter`, `mutate`, etc.) to manipulate
