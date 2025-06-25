@@ -80,6 +80,7 @@ involves other convenience packages listed below.
 | [plyranges](https://tidyomics.github.io/plyranges/) | [Vignette](https://tidyomics.github.io/plyranges/articles/an-introduction.html) | [GitHub](https://github.com/tidyomics/plyranges) | Tidy manipulation of genomics ranges |
 | [plyinteractions](https://tidyomics.github.io/plyinteractions/) | [Vignette](https://tidyomics.github.io/plyinteractions/articles/plyinteractions.html) | [GitHub](https://github.com/tidyomics/plyinteractions) | Tidy manipulation of genomic interactions |
 | [plyxp](https://jtlandis.github.io/plyxp/) | [Vignette](https://jtlandis.github.io/plyxp/articles/plyxp.html) | [GitHub](https://github.com/jtlandis/plyxp) | Data-masking-based interface to experiment data |
+| [DFplyr](https://bioconductor.org/packages/DFplyr/) | [Vignette](https://www.bioconductor.org/packages//release/bioc/vignettes/DFplyr/inst/doc/example_usage.html) | [GitHub](https://github.com/jonocarroll/DFplyr) | Tidy manipulation of DataFrame objects (S4) |
 
 Consult each package homepage for a description of recent changes.
 
