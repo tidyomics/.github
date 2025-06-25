@@ -202,6 +202,7 @@ comparable efficiency to the underlying base R/Bioconductor code.
 * Quarto lecture notes introducing the concepts of tidyomics for expression and ranges: [Tidy intro talk](https://tidyomics.github.io/tidy-intro-talk)
 * Short tutorial showing overlaps of GWAS SNPs with scATAC-seq peaks [T1D GWAS SNPs and CD4+ peaks](https://htmlpreview.github.io/?https://github.com/mikelove/cd4-overlaps/blob/main/CATlas/analysis.html)
 * Workflow showing RNA-seq and ATAC-seq integration with plyranges: [Fluent genomics workflow](https://sa-lee.github.io/fluentGenomics/articles/fluentGenomics.html)
+* Tutorial (contributed by Physalia) on: [Tidy spatial analyses](https://github.com/tidyomics/tidySpatialWorkshop)
 * Bulk RNA-seq tutorial contributed by Maria Doyle [RNAseq-R-tidyverse 2022](https://mblue9.github.io/RNAseq-R-tidyverse/articles/tidytranscriptomics.html)
 * More to come...
 
