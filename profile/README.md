@@ -224,8 +224,8 @@ We value community feedback and collaboration, and are happy to help
 you get started. Join the ongoing discussion, or you can ask specific
 questions about code on the support site.
 
-* Join our Slack Channel,
-  [#tidiness_in_bioc](https://slack.bioconductor.org) 
+* Join our Zulip Channel,
+  [#tidiness_in_bioc](https://community-bioc.zulipchat.com/) 
   for general discussion or pointers
 * For specific coding help you can reach out on the 
   [Bioconductor support site](https://support.bioconductor.org) 
