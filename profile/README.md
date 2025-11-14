@@ -195,6 +195,14 @@ modular fashion to perform complex operations, including grouping and
 summarization tasks. Operations should still be performed with
 comparable efficiency to the underlying base R/Bioconductor code.
 
+As we note in the tidyomics publicaation, "coding simplicity [may be] promoted
+by fewer intermediate variables". Importantly tidyomics packages do not require
+or recommend avoiding intermediate variables altogether. Examining intermediate
+variables is highly useful for understanding what each function in a piped chain
+of function is doing, and double-checking one's code.  Tidyomics users should
+consider at what point in an analysis workflow it makes sense to define an
+intermediate object and how to name such an object to make clear its contents.
+
 ## Tutorials
 
 * BioC workshop covering single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
