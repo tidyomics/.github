@@ -195,7 +195,7 @@ modular fashion to perform complex operations, including grouping and
 summarization tasks. Operations should still be performed with
 comparable efficiency to the underlying base R/Bioconductor code.
 
-As we note in the tidyomics publicaation, "coding simplicity [may be] promoted
+The tidyomics publication notes "coding simplicity [may be] promoted
 by fewer intermediate variables". Importantly tidyomics packages do not require
 or recommend avoiding intermediate variables altogether. Examining intermediate
 variables is highly useful for understanding what each function in a piped chain
