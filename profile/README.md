@@ -208,7 +208,6 @@ intermediate object and how to name such an object to make clear its contents.
 * BioC workshop covering single cell transcriptomics and genomics: [Tidy single-cell analyses](https://tidyomics.github.io/tidyomicsWorkshopBioc2023/articles/tidyGenomicsTranscriptomics.html)
 * BioC workshop covering genomic ranges and interactions: [Investigating chromatin composition and architecture](https://jserizay.com/Bioc2024tidyworkshop/)
 * Online book covering tidy manipulation of GRanges and more: [Tidy ranges tutorial](https://tidyomics.github.io/tidy-ranges-tutorial/)
-* Quarto lecture notes introducing the concepts of tidyomics for expression and ranges: [Tidy intro talk](https://tidyomics.github.io/tidy-intro-talk)
 * Short tutorial showing overlaps of GWAS SNPs with scATAC-seq peaks [T1D GWAS SNPs and CD4+ peaks](https://htmlpreview.github.io/?https://github.com/mikelove/cd4-overlaps/blob/main/CATlas/analysis.html)
 * Workflow showing RNA-seq and ATAC-seq integration with plyranges: [Fluent genomics workflow](https://sa-lee.github.io/fluentGenomics/articles/fluentGenomics.html)
 * Tutorial (contributed by Physalia) on: [Tidy spatial analyses](https://github.com/tidyomics/tidySpatialWorkshop)
@@ -221,8 +220,9 @@ intermediate object and how to name such an object to make clear its contents.
 
 ## Talks
 
-* [Tidy enrichment analysis with plyranges and nullranges](https://github.com/tidyomics/tidy-genomics-talk/blob/main/tidy-enrichment.pdf)
+* [Tidy intro talk: the concepts of tidyomics for expression and ranges](https://tidyomics.github.io/tidy-intro-talk)
 * [Tidy analysis of genomic data](https://github.com/tidyomics/tidy-genomics-talk/blob/main/tidy-genomics-talk.pdf)
+* [Tidy enrichment analysis with plyranges and nullranges](https://github.com/tidyomics/tidy-genomics-talk/blob/main/tidy-enrichment.pdf)
 
 ## Tidyomics paper
 
