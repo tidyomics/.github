@@ -91,7 +91,7 @@ you can find by navigating the package main page.
 
 | Package | Intro | GitHub | Description |
 |---|---|---|---|
-| [tidybulk](https://stemangiola.github.io/tidybulk/) | [Vignette](https://stemangiola.github.io/tidybulk/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidybulk/) | Tidy bulk RNA-seq data analysis |
+| [tidybulk](https://stemangiola.github.io/tidybulk/) | [Vignette](https://tidyomics.github.io/tidybulk/articles/introduction.html) | [GitHub](https://github.com/stemangiola/tidybulk/) | Tidy bulk RNA-seq data analysis |
 | [nullranges](https://nullranges.github.io/nullranges/) | [Vignette](https://nullranges.github.io/nullranges/articles/nullranges.html) | [GitHub](https://github.com/nullranges/nullranges/) | Generation of null genomic range sets | 
 | [easylift](https://nahid18.github.io/easylift/) | [Vignette](https://nahid18.github.io/easylift/articles/easylift.html) | [GitHub](https://github.com/nahid18/easylift/) | Perform genomic liftover |
 
